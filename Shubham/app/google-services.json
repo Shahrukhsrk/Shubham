@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898381671900",
+    "firebase_url": "https://shubham-d5f8e.firebaseio.com",
+    "project_id": "shubham-d5f8e",
+    "storage_bucket": "shubham-d5f8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898381671900:android:13957521120f8797517319",
+        "android_client_info": {
+          "package_name": "com.tour2tech.shubham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898381671900-4bht80sf9n0080l1fsv90cghfo30mfd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tour2tech.shubham",
+            "certificate_hash": "6f5ceb06294b6bf022e52f7606d399f8c5f24996"
+          }
+        },
+        {
+          "client_id": "898381671900-35qpucpuiok5r3e37t35o1q31ghpbujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDEhu7UIihPrT_XqWnTpx_b6NNLfYUIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898381671900-35qpucpuiok5r3e37t35o1q31ghpbujp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

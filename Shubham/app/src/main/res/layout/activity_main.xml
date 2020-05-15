@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="User Info"
+       android:textSize="20sp"
+       android:textAlignment="center"
+       android:layout_marginTop="3dp"
+       android:textColor="#000000"
+       android:textStyle="bold"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvname"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvemail"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile No. :"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvmobile"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:onClick="imageUpload"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"
+        android:onClick="logout"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploaded Images"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView"
+            />
+
+
+    </ScrollView>
+
+</LinearLayout>
